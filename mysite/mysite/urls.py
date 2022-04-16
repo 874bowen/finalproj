@@ -24,6 +24,7 @@ from django.views.generic import TemplateView
 
 urlpatterns = [
     path('', include('ads.urls')),  # Change to ads.urls
+    path('apis/', include('djrfapis.urls')),  # Change to ads.urls
     path('admin/', admin.site.urls),  # Keep
     path('accounts/', include('django.contrib.auth.urls')),  # Keep
     url(r'^oauth/', include('social_django.urls', namespace='social')),  # Keep
