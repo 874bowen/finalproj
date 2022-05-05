@@ -50,6 +50,7 @@ INSTALLED_APPS = [
     'taggit',
     'home.apps.HomeConfig',
     'ads.apps.AdsConfig',
+    'favs.apps.FavsConfig',
     'djrfapis',
     'rest_framework.authtoken'
 ]
